@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Splash Potion of Undying",
+                                "italic": false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:32,CustomPotionColor:11141120,Enchantments:[{}],undying-potion:1b}"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 2.0
+        }
+    ]
+}
