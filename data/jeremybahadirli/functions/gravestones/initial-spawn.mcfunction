@@ -1,2 +1,2 @@
 loot give @s loot jeremybahadirli:gameplay/initial_spawn
-scoreboard players set @s initialSpawn 1
+tag @s add recieved-potions
